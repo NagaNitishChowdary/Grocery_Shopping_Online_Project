@@ -1,0 +1,19 @@
+.div_for_nav{
+    border:3px solid red;
+}
+
+.nav1{
+    position:sticky;
+}
+
+.div1{
+    float:left;
+}
+
+.div2{
+    float:right;
+}
+
+.div3{
+    float:right;
+}
