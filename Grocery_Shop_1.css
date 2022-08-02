@@ -1,0 +1,62 @@
+.navi{
+  height:30px;
+  width:100%;
+  //border:5px dashed pink;
+  background-color:green;
+  //display:inline-block;
+  position:sticky;
+}
+
+.navi1{
+  width:24%;
+  height:100%;
+  text-align: center;
+  border:1px solid red;
+  display:inline-block;
+}
+
+.navi2{
+  width:24%;
+  height:100%;
+  text-align:center;
+  border:1px solid red;
+  display: inline-block;
+}
+
+.navi3{
+  width:25%;
+  height:100%;
+  text-align:center;
+  border:1px solid red;
+  display: inline-block;
+}
+
+.navi4{
+  width:25%;
+  height:100%;
+  text-align:center;
+  border:1px solid red;
+  display:inline-block;
+}
+
+.imagebig{
+  line-height:5px;
+}
+
+.image1{
+  display:inline-block;
+  heighy:200px;
+  width:32%;
+}
+
+.image2{
+  display:inline-block;
+  height:200px;
+  width:32%;
+}
+
+.image3{
+  display: inline-block;
+  height:200px;
+  width:32%;
+}
