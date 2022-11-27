@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dash Groceries</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Order Online</a></li>
+          <li><a href="#">Abous Us</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="image-holder">
+      <img class="background-image" src="bg-image1.jpg" width="100%">
+      <h1 id="caption-1">GROCERY SHOPPING DONE ONLINE</h1>
+    </div>
+    <h1 id="pop-cat">POPULAR CATEGORIES</h1>
+    <hr width="1300">
+
+    <div class="featured-wrapper">
+
+     <!--This is Diary Products category-->
+      <div class="product-container">
+        <p class="cat-text">Diary Products</p>
+        <img src="diary.jfif" alt="no image found" width="400px" height="300px">
+        <div class="btn-container">
+          <button type="view-more-button" type="button" name="button">VIEW MORE</button>
+        </div>
+
+      </div>
+     <!--This is Cold Meat category-->
+      <div class="product-container">
+        <p class="cat-text">Cold Meat</p>
+        <img src="coldmeat.jpg" alt="no image found" width="400px" height="300px">
+        <div class="btn-container">
+          <button type="view-more-button" type="button" name="button">VIEW MORE</button>
+        </div>
+
+      </div>
+     <!--This is Fruit and Veg category-->
+      <div class="product-container">
+        <p class="cat-text">Fruit and Veg</p>
+        <img src="fruitveg.jfif" alt="no image found" width="400px" height="300px">
+        <div class="btn-container">
+          <button type="view-more-button" type="button" name="button">VIEW MORE</button>
+        </div>
+
+      </div>
+
+    </div>
+
+     <!--This is Social Media Link Section-->
+    <div id="social-media-container" background-color="#00000">
+      <div id="facebook-icon-container">
+        <img src="facebook.jfif" width="70px">
+      </div>
+
+      <div id="twitter-icon-container">
+        <img src="twitter.jfif" width="70px">
+      </div>
+
+      <div id="insta-icon-container">
+        <img src="insta.jfif" width="70px">
+      </div>
+    </div>
+
+    <br>
+     <!--This is holder for the form-->
+    <div class="form-container">
+      <div class="form-head-container">
+        <img id="email-icon" src="email.jfif">
+        <p id="contact-us">Contact Us</p>
+      </div>
+
+      <form action="">
+        <label class="form-item" for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Name">
+        <br><br>
+
+        <label class="form-item" for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+        <br><br>
+
+        <label class="form-item" for="subject">Subject</label>
+        <textarea type="text" id="subject" name="subject" placeholder="How Can We Help?""></textarea>
+        <br><br>
+        <input type="submit" id="submit-btn" value="Submit">
+      </form>
+
+    </div>
+
+  </body>
+</html>
